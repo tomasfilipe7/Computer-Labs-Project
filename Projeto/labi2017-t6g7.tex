@@ -1,0 +1,164 @@
+\documentclass[hidelinks,11pt,twoside,a4paper]{report}
+
+
+
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{xspace}% used by \sigla
+\usepackage[printonlyused]{acronym}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{indentfirst}
+\usepackage{color,soul}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\newcommand{\hlc}[2][yellow]{ {\sethlcolor{#1} \hl{#2}} }
+
+
+\renewcommand{\baselinestretch}{1.2}
+\setcounter{tocdepth}{3}
+
+\begin{document}
+
+%definoções
+\def\titulo{Realidade Virtual - Uma visão.}
+\def\data{12/11/2017}
+\def\autores{Tomás Martins, Daniel Lopes}
+\def\autorescontactos{(89286) tomasfilipe7@ua.pt, (87881) daniel.vnl@ua.pt}
+\def\departamentoacr{DETI}
+\def\departamento{Departamento de Eletrónica, Telecomunicações e Informática}
+\def\empresa{Universidade de Aveiro}
+\def\logotipo{imagens/ua.pdf}
+
+
+
+%página de titulo
+\begin{titlepage}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{imagens/ua.pdf} 
+\end{figure}
+
+%
+\centering
+{\Large \empresa}
+%
+
+%
+\vspace{5mm}
+%
+\centering
+{\Large \data}
+
+
+\begin{center}
+%
+\vspace*{50mm}
+%
+{\Huge \titulo}\\ 
+%
+\vspace{10mm}
+%
+
+%
+\vspace{20mm}
+%
+{\LARGE \autores}\\ 
+%
+\vspace{30mm}
+%
+\begin{figure}[h]
+\center
+
+\end{figure}
+%
+\vspace{30mm}
+\end{center}
+%
+
+\end{titlepage}
+
+
+% pagina de titulo secundária
+\title
+{
+{\Huge\textbf{\titulo}}\\
+{\Large \departamentoacr\\ \departamento\\ \empresa}	
+}
+%
+\author{%
+    \autores \\
+    \autorescontactos
+}
+%
+\date{\data}
+%
+\maketitle
+\begin{titlepage}\end{titlepage}
+
+%indice em numeração romana
+\pagenumbering{roman}
+\tableofcontents
+
+\cleardoublepage
+\chapter*{Acrónimos}
+\begin{acronym}[XXXXXXXX]
+	\acro{RV}{\textit{Realidade Virtual}}
+	\acro{HMD}{\textit{Head Mounted Display}}
+\end{acronym}	
+
+\cleardoublepage
+\pagenumbering{arabic}
+\input{capitulos/resumo}
+
+%capitulos
+\cleardoublepage
+\pagenumbering{arabic}
+\input{capitulos/capitulo_1}
+
+\cleardoublepage
+\input{capitulos/capitulo_2}
+
+\cleardoublepage
+\input{capitulos/capitulo_3}
+
+\cleardoublepage
+\input{capitulos/capitulo_4}
+
+\cleardoublepage
+\input{capitulos/capitulo_5}
+
+\cleardoublepage
+\input{capitulos/capitulo_6}
+
+\cleardoublepage
+\input{capitulos/capitulo_7}
+
+\cleardoublepage
+\input{capitulos/capitulo_8}
+
+\cleardoublepage
+\input{capitulos/capitulo_9}
+
+\cleardoublepage
+\input{capitulos/conclusao}
+
+\cleardoublepage
+\input{capitulos/creditos}
+
+%
+% Bibliografia
+%
+\cleardoublepage
+\bibliographystyle{unsrt}
+\bibliography{bibliografia}
+
+
+
+
+\end{document}

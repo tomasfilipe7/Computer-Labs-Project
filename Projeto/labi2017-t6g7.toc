@@ -1,0 +1,61 @@
+\babel@toc {portuguese}{}
+\contentsline {paragraph}{}{1}{section*.3}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}\bf Mas ent\IeC {\~a}o o que \IeC {\'e} a realidade virtual?}{3}{chapter.2}
+\contentsline {paragraph}{}{3}{section*.4}
+\contentsline {section}{\numberline {2.1}Forma\IeC {\c c}\IeC {\~a}o l\IeC {\'e}xica da palavra.}{3}{section.2.1}
+\contentsline {paragraph}{}{3}{section*.5}
+\contentsline {section}{\numberline {2.2}Conceito}{3}{section.2.2}
+\contentsline {paragraph}{}{3}{section*.6}
+\contentsline {chapter}{\numberline {3}HMD}{7}{chapter.3}
+\contentsline {paragraph}{}{7}{section*.7}
+\contentsline {paragraph}{}{7}{section*.8}
+\contentsline {chapter}{\numberline {4}Hist\IeC {\'o}ria}{9}{chapter.4}
+\contentsline {paragraph}{}{9}{section*.10}
+\contentsline {section}{\numberline {4.1}Hist\IeC {\'o}ria}{9}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Estereosc\IeC {\'o}pio - 1838}{9}{subsection.4.1.1}
+\contentsline {paragraph}{}{9}{section*.11}
+\contentsline {subsection}{\numberline {4.1.2}\textit {Pygmalion\IeC {\textquoteright }s Spectacles - 1935}}{9}{subsection.4.1.2}
+\contentsline {paragraph}{}{9}{section*.12}
+\contentsline {subsection}{\numberline {4.1.3}Sensorama - 1955}{10}{subsection.4.1.3}
+\contentsline {paragraph}{}{10}{section*.13}
+\contentsline {subsection}{\numberline {4.1.4}Headsight - 1961}{10}{subsection.4.1.4}
+\contentsline {paragraph}{}{10}{section*.14}
+\contentsline {subsection}{\numberline {4.1.5}Ultimate Display - 1965 / Sword of Damocles - 1968}{10}{subsection.4.1.5}
+\contentsline {paragraph}{}{10}{section*.15}
+\contentsline {subsection}{\numberline {4.1.6}Realidade Artificial - 1969}{11}{subsection.4.1.6}
+\contentsline {paragraph}{}{11}{section*.16}
+\contentsline {subsection}{\numberline {4.1.7}O nascimento do nome - 1987}{12}{subsection.4.1.7}
+\contentsline {paragraph}{}{12}{section*.17}
+\contentsline {subsection}{\numberline {4.1.8}Consumo P\IeC {\'u}blico - 1991}{12}{subsection.4.1.8}
+\contentsline {paragraph}{}{12}{section*.18}
+\contentsline {subsection}{\numberline {4.1.9}Inicio das consolas VR - 1993}{12}{subsection.4.1.9}
+\contentsline {paragraph}{}{12}{section*.19}
+\contentsline {subsection}{\numberline {4.1.10}Realidade Virtual nos dias de hoje}{13}{subsection.4.1.10}
+\contentsline {paragraph}{}{13}{section*.20}
+\contentsline {chapter}{\numberline {5}Realidade Virtual - \IeC {\'A}reas de aplica\IeC {\c c}\IeC {\~a}o}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}Medicina}{15}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Treino M\IeC {\'e}dico}{15}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Param\IeC {\'e}dicos}{15}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Tratamento de Fobias}{16}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Jogos}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simuladores}{17}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Simulador de Comboio}{17}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Simulador de Voo}{17}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}\IeC {\'A}rea militar}{18}{section.5.4}
+\contentsline {chapter}{\numberline {6}Caracter\IeC {\'\i }sticas da Realidade Virtual}{19}{chapter.6}
+\contentsline {section}{\numberline {6.1}Imersiva}{19}{section.6.1}
+\contentsline {section}{\numberline {6.2}N\IeC {\~a}o imersiva}{19}{section.6.2}
+\contentsline {section}{\numberline {6.3}Interativa}{20}{section.6.3}
+\contentsline {chapter}{\numberline {7}Equipamentos}{21}{chapter.7}
+\contentsline {section}{\numberline {7.1}Oculus Rift}{21}{section.7.1}
+\contentsline {section}{\numberline {7.2}Luvas Virtuais}{22}{section.7.2}
+\contentsline {section}{\numberline {7.3}Icaros}{22}{section.7.3}
+\contentsline {section}{\numberline {7.4}Fato virtual}{23}{section.7.4}
+\contentsline {chapter}{\numberline {8}Vantagens e Desvantagens}{25}{chapter.8}
+\contentsline {section}{\numberline {8.1}Vantagens}{25}{section.8.1}
+\contentsline {section}{\numberline {8.2}Desvantagens}{25}{section.8.2}
+\contentsline {chapter}{\numberline {9}Realidade Virtual - O Presente e o Futuro}{27}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclus\IeC {\~a}o}{29}{chapter.10}
+\contentsline {chapter}{\numberline {11}Cr\IeC {\'e}ditos}{31}{chapter.11}

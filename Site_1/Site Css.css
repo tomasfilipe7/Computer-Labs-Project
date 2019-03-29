@@ -1,0 +1,763 @@
+
+body
+{
+	background-image: url('fundo_11.jpg');
+	background-size: 105%;
+	background-attachment: fixed;
+	font-family: 'Segoe UI Light';
+	
+	
+}
+
+* {
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:"Bree Serif",sans-serif;
+}
+
+
+
+	/* Funções da Barra Lateral */
+	
+#sidebar 
+{
+	position:absolute;
+	top:52px;
+	left:0px;
+	width:11%;
+	height:120%;
+	background:#1a1a1a;
+	text-align:center;
+	transform-origin:left;
+	transform:perspective(1200px) rotateY(90deg);
+	transition:all 400ms ease;
+	
+  	filter: alpha(opacity=40);
+	-moz-opacity:.40;
+	opacity:.40;
+	
+	
+	
+}
+
+#sidebar ul li 
+{
+	color:#ccc;
+	font-size:20px;
+	width:100%;
+	height:5%;
+	border-bottom:1px solid #222222;
+	line-height:50px;
+}
+
+#sidebar.active 
+{
+	transform:perspective(1200px) rotateY(0deg);
+}
+
+
+#toggle-btn 
+{
+  
+	position:absolute;
+	left:2%;
+	top:7%;
+	transition:left 200ms linear 0ms,transform 300ms ease 100ms;
+}
+
+#toggle-btn.active
+{
+  
+	left:230px;
+	transform:rotate(360deg);
+}
+
+#toggle-btn span 
+{
+  	
+	position:relative;
+	top:0px;
+	display:block;
+	background:#ccc;
+	width:30px;
+	height:5px;
+	margin:5px 0px;
+	cursor:pointer;
+	transition:transform 300ms ease 200ms;
+}
+
+#toggle-btn.active span:nth-child(1) 
+{
+	
+	top:10px;
+	transform:rotate(45deg);
+}
+
+#toggle-btn.active span:nth-child(2) 
+{
+	opacity:0; 
+}
+
+#toggle-btn.active span:nth-child(3) 
+{
+	top:-10px;
+	transform:rotate(-45deg);
+}
+
+
+	/* Fim funções da Barra Lateral */
+
+
+	
+	
+
+	/*Funções de Formatação das páginas em geral*/
+
+#fundo /* Fundo com opacidade */
+{
+	position:relative;
+	z-index:1;
+	width:60%;
+	height:1050px; /* FOI MODIFICADO AQUI <-------------------------------------------------------- */
+	text-align:left;
+	background-color:#000;
+	
+	
+	filter: alpha(opacity=55);
+	-moz-opacity:.55;
+	opacity:.55;
+	
+}
+
+#titulo  /* estilo do Titulo e respetivo fundo com opacidade */
+{
+	width:60%;
+	color: #FF8C00;
+	text-align:justify;
+	background-color:#000;
+	
+	
+	padding: 3%;		
+	filter.alpha(opacity=70);
+	-moz-opacity:.70;
+	opacity:.70;	
+	font-size: 250%;
+	
+	
+}
+ 
+#texto /* Estilo do texto */
+{
+	position:relative;
+	z-index:2;
+	top: -1000; /* FOI MODIFICADO AQUI <-------------------------------------------------------- */
+	width:50%;
+	color:#FFF;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+	
+	
+}
+
+img 
+{
+    border-radius: 15px;
+	display: block;
+    margin: auto;
+	animation: 5s fadeIn;
+
+}	
+	/* Fim das Funções de Formatação das páginas em geral*/
+
+	
+	
+	
+	
+	
+	/* Funções com efeitos especificos na página inicial */
+
+.slider
+{
+	width: 60%;
+	height: 100%;
+	border-radius: 35px;
+	background: url(5.jpg);
+	margin: 5% auto;	
+	animation: slide 25s infinite;	
+	
+}
+
+@keyframes slide
+{
+	1%
+	{
+		background: url(1.jpg);
+	
+	}
+	
+	30%
+	{
+		background: url(2.jpg);
+		
+	}
+	45%
+	{
+		background: url(5.jpg);
+		
+	}
+	60%
+	{
+		background: url(3.jpg);
+	
+	}
+	75%
+	{
+		background: url(6.jpg);
+	}
+		
+}
+
+#titulo_intro /* Titulo da Página inicial */
+{
+	position: relative;
+	left:50%;
+	top:55%;
+	transform: translatex(-50%) translateY(-70%);
+	text-align: center;
+	font-family: 'Kalam';
+	font-size: 500%;
+	color: #FFD;
+	animation: 5s fadeIn;
+	
+}
+
+#titulo_intro_2/* Sub Titulo da Página inicial */
+{
+	position: absolute;
+	left:50%;
+	top:80%;
+	transform: translatex(-50%) translateY(-70%);
+	text-align: center;
+	font-family: 'Kalam';
+	font-size: 250%;
+	color: #FF8C00;
+	animation: 15s fadeIn;
+
+}
+
+@keyframes fadeIn /* Efeito FadeIn do Titulo Inicial */
+
+{
+	
+	from 
+	{
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 1;
+	}
+
+}
+
+	/*Fim Funções com efeitos especificos na página inicial */
+
+
+
+
+	
+	/* Funções especificas para a página - Vantagens e Desvantagens */
+
+#fundo_1 /* Fundo com opacidade especifico nesta página */
+{
+	position:relative;
+	z-index:1;
+	width:60%;
+	height:1000px;
+	text-align:left;
+	background-color:#000;
+	
+	
+	filter: alpha(opacity=55);
+	-moz-opacity:.55;
+	opacity:.55;
+	
+}
+
+#texto_1 /* Formatação do texto expecifico nesta página */
+{
+	position:relative;
+	z-index:2;
+	top: -1000;
+	width:30%;
+	left:10%;
+	color:#FFF;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+}
+
+#texto_2 /* Formatação do texto expecifico nesta página */
+{
+	position:relative;
+	z-index:2;
+	top: -900;
+	width:30%;
+	left:10%;
+	color:#FFF;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+}
+
+#sub_titulo /* Estilo do Titulo "Vantagem" */
+{
+	position:relative;
+	z-index:2;
+	top: -935;
+	left:23%;
+	color: #D3D3D3;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+	font-size: 200%;
+
+}
+
+#sub_titulo_2 /* Estilo do Titulo "Desvantagem" */
+{
+	
+	position:relative;
+	z-index:2;
+	top: -840;
+	left:23%;
+	color: #D3D3D3;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+	font-size: 200%;
+
+}
+
+	/* Fim das Funções especificas para a página - Vantagens e Desvantagens */
+		
+		
+		
+		
+	/* Funções especificas para a página Medicina */
+
+#fundo_2 /* Fundo com opacidade especifico nesta página */
+{
+	position:relative;
+	z-index:1;
+	width:60%;
+	height:1000px;
+	text-align:left;
+	background-color:#000;
+	
+	
+	filter: alpha(opacity=55);
+	-moz-opacity:.55;
+	opacity:.55;
+	
+}
+
+#sub_titulo_3
+{
+	position:relative;
+	z-index:2;
+	top: -742;
+	left:23%;
+	color: #D3D3D3;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+	font-size: 200%;
+
+}
+
+#texto_3
+{
+	position:relative;
+	z-index:2;
+	top: -800;
+	width:30%;
+	left:10%;
+	color:#FFF;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+}
+
+
+	/*  Fim das funções da página Medicina  */
+	
+	
+	
+	
+	
+	/*Funções página história */
+	
+	
+#fundo_3 /* Fundo com opacidade especifico nesta página */
+{
+	position:relative;
+	z-index:1;
+	width:60%;
+	height:2600px;
+	text-align:left;
+	background-color:#000;
+	
+	
+	filter: alpha(opacity=55);
+	-moz-opacity:.55;
+	opacity:.55;
+	
+}
+	
+#sub_titulo_4
+{
+	position:relative;
+	z-index:2;
+	top: -2540;
+	left:23%;
+	color: #D3D3D3;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+	font-size: 200%;
+
+}
+
+#sub_titulo_5
+{
+	position:relative;
+	z-index:2;
+	top: -2500;
+	left:23%;
+	color: #D3D3D3;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+	font-size: 200%;
+
+}
+
+#texto_4
+{
+	position:relative;
+	z-index:2;
+	top: -2600;
+	width:30%;
+	left:10%;
+	color:#FFF;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+}			
+	/*  Fim das funções da página História  */
+		
+
+
+		
+	/*  Funções da galeria  */	
+.gallery
+{
+	margin: 10px 50px
+		
+}
+
+.gallery img
+{
+	width: 25%;
+	padding: 5px;
+	filter: grayscale(100);
+	transition: 0.3s;
+	float: left;
+	
+}
+
+.gallery img:hover
+{
+	filter: grayscale(0);
+	transform: scale(1.1);
+	
+}	
+
+
+
+h3
+{
+	position:relative;
+	z-index:2;
+	left:7%;
+	color: #D3D3D3;
+	
+		
+	animation: 2s fadeIn;
+	font-size: 150%;
+	
+}
+	/*Fim das funções galeria*/
+
+
+
+
+
+/* ---------------------------------------------- Novo Código inserido --------------------------------------------------- */
+
+
+
+
+
+/*funções do botão */
+.b
+{
+	position: absolute;
+	top:250%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 20%;
+	height: 17%;
+	text-align: center;
+	line-height: 350%;
+	letter-spacing: 4px;
+	font-size: 100%;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Segoe UI Light;
+	border-radius: 80px;
+	border: 4px solid #000;
+	box-shadow: inset 0 0 30px rgba(0,0,0,.1);
+	overflow: hidden;
+	
+	
+}
+
+.b:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -70px;
+	width: 70%;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+	transition:.5s;
+	transform: skewX(-15deg);
+		
+}
+
+.b:hover:before
+{
+	left: 210px;
+	
+}
+
+
+.b:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -70px;
+	width: 50px;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+	transition:.5s;
+	transform: skewX(-15deg);
+		
+}
+
+.b_1
+{
+	position: absolute;
+	top:300%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 20%;
+	height: 20%;
+	text-align: center;
+	line-height: 325%;
+	letter-spacing: 4px;
+	font-size: 100%;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Segoe UI Light;
+	border-radius: 80px;
+	border: 4px solid #000;
+	box-shadow: inset 0 0 30px rgba(0,0,0,.1);
+	overflow: hidden;
+	
+	
+}
+
+.b_1:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -70px;
+	width: 70%;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+	transition:.5s;
+	transform: skewX(-15deg);
+		
+}
+
+.b_1:hover:before
+{
+	left: 210px;
+	
+}
+
+
+.b_1:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -70px;
+	width: 50px;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+	transition:.5s;
+	transform: skewX(-15deg);
+		
+}
+
+
+
+.b_2
+{
+	position: absolute;
+	top:380%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 20%;
+	height: 25%;
+	text-align: center;
+	line-height: 325%;
+	letter-spacing: 4px;
+	font-size: 100%;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Segoe UI Light;
+	border-radius: 80px;
+	border: 4px solid #000;
+	box-shadow: inset 0 0 30px rgba(0,0,0,.1);
+	overflow: hidden;
+	
+	
+}
+
+.b_2:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -70px;
+	width: 70%;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+	transition:.5s;
+	transform: skewX(-15deg);
+		
+}
+
+.b_2:hover:before
+{
+	left: 210px;
+	
+}
+
+
+.b_2:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -70px;
+	width: 50px;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+	transition:.5s;
+	transform: skewX(-15deg);
+		
+}
+
+
+/*Fim das funções do botão*/
+
+
+
+
+	
+		/*   -----  ATENÇÃO! - Todas as novas funções que criares coloca abaixo desta mensagem, se alterares código acima avisa com comentário ao lado da linha de cada código alerado ------   */
+		
+		/*  			O mesmo acontece se alterares código na página principal ou nas outras páginas, o objetivo é facilitar transição de código entre a tua pasta e a minha e ficarmos sempre atualizados  			*/
+		
+		
+		
+				
+				
+h1
+{
+	color:#FF8C00;
+	font-size: 1000%;
+}
+		
+#informacoes_pessoas
+{
+	color:#FFF;
+	font-size: 100%;
+	text-align:justify;
+}
+
+#informacoes_instituicao
+{
+	position:relative;
+	z-index:2;
+	top: -700;
+	width:50%;
+	color:#FFF;
+	text-align:justify;
+	margin: 24px;	
+	animation: 2s fadeIn;
+}
+
+#fundo_informacoes /* Fundo de informacoes */
+{
+	width:60%;
+	height:750px;
+	text-align:justify;
+	background-color:#000;
+	
+	
+	filter: alpha(opacity=55);
+	-moz-opacity:.55;
+	opacity:.55;
+	
+}		
+	
+p
+{
+text-indent: 50px;  /* Espaçamento dos parágrafos */ 
+}	
+		
+#fundo_informacoes a
+{
+
+	color:#FFF;
+	
+}
+
